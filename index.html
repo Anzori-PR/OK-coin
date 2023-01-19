@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>okcoin</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <section class="wholePage">
+            <header class="header">
+                <div class="logo"><a href="./index.html"><img src="./img/Okcoin (2).png" alt=""></a></div>
+                <div class="menu">
+                    <ul>
+                        <li>Features</li>
+                        <li><span class="menu-span">Prices</span></li>
+                        <li>Earn</li>
+                        <li>Institution</li>
+                        <li>Learn</li>
+                    </ul>
+                </div>
+                <div class="login">
+                    <p>Login</p>
+                    <button>Sign up</button>
+                </div>
+            </header>
+
+        <div class="page">
+
+            <div class="price-box">
+
+                <div class="pp">
+                    <p>Home</p>
+                    <p>  >   Price</p>
+                </div>
+
+                <div class="p-Class"><p>Cryptocurrency prices</p></div>
+                
+
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="What cryptos are you looking for?">
+
+                <table id="myTable">
+                    <tr>
+                        <th style="width: 40%;">Crypto</th>
+                        <th style="width: 15%;">Price</th>
+                        <th style="width: 15%;">Change(24h)</th>
+                        <th style="width: 15%;">Market cap</th>
+                        <th style="width: 15%;"></th>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/Bitcoin.png" alt=""></div>
+                                <div class="crypto"><p>Bitcoin  <span class="Crypto-span">BTC</span></p></div>
+                            </div>
+                        </td>
+                        <td>$16,918.90</td>
+                        <td> <span class="green">+0.21%</span> </td>
+                        <td>%325.01B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/Etherium.png" alt=""></div>
+                                <div class="crypto"><p>Ethereum  <span class="Crypto-span">ETH</span></p></div>
+                            </div>
+                        </td>
+                        <td>$1,272.87</td>
+                        <td><span class="green">+0.47%</span></td>
+                        <td>$153.35B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/theserpng.png" alt=""></div>
+                                <div class="crypto"><p>Tether  <span class="Crypto-span">USDT</span></p></div>
+                            </div>
+                        </td>
+                        <td>$1.01</td>
+                        <td><span class="red">-0.01%</span> </td>
+                        <td>$65.75B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/USD Coin.png" alt=""></div>
+                                <div class="crypto"><p>Usd Coin </p> </div> 
+                                <div class="crypto-small">  <span class="Crypto-span">USDC</span>   </div>
+                            </div>
+                        </td>
+                        <td>$0.9998</td>
+                        <td><span class="green">+0.00%</span></td>
+                        <td>$42.75B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/Dogy.png" alt=""></div>
+                                <div class="crypto"><p>Dogecoin  <span class="Crypto-span">DOGE</span></p></div>
+                            </div>
+                        </td>
+                        <td>$0.0969</td>
+                        <td><span class="green">+0.48%</span></td>
+                        <td>%51.31B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/Cardano.png" alt=""></div>
+                                <div class="crypto"><p>Cardano  <span class="Crypto-span">ADA</span></p></div>
+                            </div>
+                        </td>
+                        <td>$0.3122</td>
+                        <td><span class="red">-0.15%</span> </td>
+                        <td>$10.97B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/Polygon.png" alt=""></div>
+                                <div class="crypto"><p>Polygon  <span class="Crypto-span">MATIC</span></p></div>
+                            </div>
+                        </td>
+                        <td>$0.9085</td>
+                        <td><span class="green">+0.14%</span></td>
+                        <td>$8.15B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/Polkadot.png" alt=""></div>
+                                <div class="crypto"><p>Polkadot  <span class="Crypto-span">DOT</span></p></div>
+                            </div>
+                        </td>
+                        <td>$5.28</td>
+                        <td><span class="red">-0.01%</span></td>
+                        <td>$6.24B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/Litecoin.png" alt=""></div>
+                                <div class="crypto"><p>Litecoin  <span class="Crypto-span">LTC</span></p></div>
+                            </div>
+                        </td>
+                        <td>$77.29</td>
+                        <td><span class="green">+1.17%</span></td>
+                        <td>$5.55B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <div class="img-crypto">
+                                <div class="imgs"><img src="./img/Shibainu.png" alt=""></div>
+                                <div class="crypto"><p>Shiba inu </p> </div> 
+                                <div class="crypto-small">  <span class="Crypto-span">SHIB</span>   </div>
+                            </div>
+                        </td>
+                        <td>$0.00000921</td>
+                        <td><span class="green">+0.21%</span></td>
+                        <td>%5.43B</td>
+                        <td><button>Buy/sell</button></td>
+                    </tr>                
+                </table>
+            </div>
+
+
+            <footer>
+                <div class="logo-links">
+                    <ul>
+                        <li><img src="./img/Okcoin (2).png" alt=""></li>
+                        <li>support@okcoin.com</li>
+                        <li>NMLS #1767779</li>
+                        <li>© 2022 Okcoin USA, Inc.</li>
+                        <li>All Rights Reserved</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><span class="C-blck F-sz">Product</span></li>
+                        <li>Buy crypto</li>
+                        <li>Earn</li>
+                        <li>OTC</li>
+                        <li>Mobile app</li>
+                        <li>Affiliate</li>
+                        <li>Partners</li>
+                        <li>Free Bitcoin</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><span class="C-blck F-sz">Company</span></li>
+                        <li>About us</li>
+                        <li>Supported regions</li>
+                        <li>Developer grant program</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>Listings</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><span class="C-blck F-sz">Help</span></li>
+                        <li>Status</li>
+                        <li>Help Center</li>
+                        <li>Bug reports</li>
+                        <li>API</li>
+                        <li>Security</li>
+                        <li>Legal and privacy</li>
+                        <li>Sitemap</li>
+                        <li>Cookie preferences</li>
+                    </ul>
+                </div>
+                <div class="last-footer">
+                    <ul>
+                        <li><span class="C-blck F-sz">Get the app</span></li>
+                        <li><img src="./img/app-store.png" alt=""></li>
+                        <li><img src="./img/google-pay.png" alt=""></li>
+                        <li class="icons">
+                            <img src="./img/telegram.jpg" alt="">
+                            <img src="./img/vecteezy_set-of-social-media-icon-in-round-bakground_.jpg" alt="">
+                            <img src="./img/linkdin.jpg" alt="">
+                        </li>
+                        <li class="icons IC-2">
+                            <img src="./img/tele.jpg" alt="">
+                            <img src="./img/face.jpg" alt="">
+                            <img src="./img/insta2.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+
+
+        </div>
+
+
+    </section>
+</body>
+</html>

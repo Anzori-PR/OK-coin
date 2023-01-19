@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wholePage{
+    width: 100%;
+    height: 100vh;
+}
+.page{
+    width: 90%;
+    margin: 0 5%;
+    min-height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+}
+
+.logo img{
+    width: 160px;
+    margin-left: 60%;
+    margin-top: 6.5%;
+}
+
+.menu{
+    display: flex;
+    margin: auto;
+    align-content: flex-start;
+    align-items: stretch;
+    margin-right: 27%;
+}
+
+.menu-span{
+    color: #7e49e0;
+    border-bottom: 2px solid #7e49e0;
+    padding-bottom: 40%;
+}
+
+.menu ul{
+    display: flex;
+    margin-right: 120%;
+}
+.menu ul li{
+    list-style: none;
+    padding-left: 13%;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
+.menu ul li:hover{
+    color: #7e49e0;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    margin-right: 10.5%;
+}
+
+.login P{
+    padding-right: 30px;
+    font-weight: 550;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
+.login p:hover{
+    color: #7e49e0;
+}
+
+.login button{
+    color: white;
+}
+
+.login button:hover{
+    background-color: #7e49e0;
+    color: white;
+    border: none;
+}
+
+.price-box{
+    padding-left: calc(50% - 624px);
+    padding-right: calc(50% - 624px);
+}
+
+.pp{
+    display: flex;
+    float: left;
+    margin-top: 10%;
+}
+
+.pp p{
+    padding-left: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.p-Class p{
+    float: left;
+    margin-left: -6.5%;
+    margin-top: 14%;
+    margin-bottom: 4%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* javasi */
+#myInput {
+    background-image: url(./img/—Pngtree—file\ search\ icon\ download_4745819.png);
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 10px 20px 10px 40px;
+    border: 1px solid #ddd;
+    margin-top: 14.5%;
+    float: right;
+    width: 25%;
+    border-radius: 20px;
+}
+
+#myTable{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 15%;
+    cursor: pointer;
+}
+
+#myTable th, #myTable td {
+    text-align: left;
+    padding: 23px;
+}
+
+#myTable tr td{
+    font-size: 20px;
+}
+
+#myTable tr th{
+    border-bottom: 1px solid #ddd;
+    color: gray;
+    font-size: small;
+}
+
+#myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* java */
+
+/* table */
+button{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: grey;
+}
+
+.img-crypto{
+    display: flex;
+}
+
+.crypto p{
+    line-height: 40px;
+    display: flex;
+}
+
+.crypto{
+    margin-left: 7%;
+}
+
+.crypto-small{
+    margin-left: 3%;
+    line-height: 40px;
+}
+
+.Crypto-span{
+    color: gray;
+    padding-left: 10%;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.imgs img{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    margin-right: 4%;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10% 0;
+}
+
+footer div{
+    margin-bottom: 7%;
+}
+
+footer div ul li{
+    list-style: none;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
+footer div ul li:hover{
+    color: #7e49e0;
+}
+
+.logo-links ul li img{
+    margin-top: -20px;
+    margin-bottom: -30px;
+    width: 160px;
+}
+
+footer div ul li img{
+    width: 160px;
+}
+
+footer .logo-links{
+    margin-right: 15%;
+}
+
+.C-blck{
+    color: black;
+}
+
+.F-sz{
+    font-size: 19px;
+}
+
+footer .last-footer .icons img{
+    width: 40px;
+}
+
+
+footer .last-footer .IC-2{
+    margin-top: -15px;
+}

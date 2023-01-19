@@ -1,2 +1,2 @@
 # OK-coin
-For Website Click her: file:///C:/Users/ADMIN/Desktop/Anzori%20PR/Ok%20coin.com/index.html
+For Website Click her: https://anzori-pr.github.io/OK-coin/index.html
